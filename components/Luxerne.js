@@ -7,13 +7,17 @@ const Projects = () => {
     <div className='mt-16 text-center'>
       <h1 className='text-3xl font-semibold text-teal-400'>Luxerne</h1>
       <p className='my-10 text-xl text-gray-300'>
-        Landing page for (fictitious) hotel "Luxerne"
+        Landing page for (fictitious) hotel &quot;Luxerne&quot;
       </p>
       <p className='mb-12 text-xl text-gray-300'>
         <span className='text-teal-400'>Sections:</span> Landing page
       </p>
       <div className='relative p-2 overflow-hidden hover:brightness-110 hover:cursor-pointer transition-all duration-500 ease-in-out border-2 border-gray-500 w-5/6 md:w-4/6 mx-auto rounded-sm hover:scale-[1.01] hover:transform'>
-        <a href='https://luxerne.vercel.app/' target='_blank'>
+        <a
+          href='https://luxerne.vercel.app/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <Image
             src='/images/luxerneb.png'
             width={1000}
@@ -23,7 +27,11 @@ const Projects = () => {
         </a>
       </div>
       <div className='flex items-center justify-center gap-2 my-4 text-teal-500'>
-        <a href='https://luxerne.vercel.app/' target='_blank'>
+        <a
+          href='https://luxerne.vercel.app/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <p className='hover:text-teal-400'>Visit site</p>
         </a>
         <span>

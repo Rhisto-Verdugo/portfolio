@@ -33,15 +33,15 @@ const Hero = () => {
         Welcome to my site.
         <br />{" "}
         <span className='text-gray-200'>
-          I'm Christophe, front-end developer from Mexico.
+          I&apos;m Christophe, front-end developer from Mexico.
         </span>{" "}
         <br />
       </p>
       <p className='w-5/6 mx-auto my-10 text-xl text-center text-gray-300 md:w-4/6'>
         <span className='font-semibold text-teal-400'>About me: </span>I have
-        been studying web development since 2019, I'm currently enrolled in a
-        Bachelor's Degree of Computer Science in the Guanajuato State University
-        (2020 - 2024) - Mexico.
+        been studying web development since 2019, I&apos;m currently enrolled in
+        a Bachelor&apos;s Degree of Computer Science in the Guanajuato State
+        University (2020 - 2024) - Mexico.
       </p>
 
       <h1 className='mb-10 text-3xl text-center text-teal-400'>
