@@ -5,7 +5,7 @@ import { BiExit } from "react-icons/bi"
 const Projects = () => {
   return (
     <div className='mt-16 text-center'>
-      <h1 className='text-3xl font-semibold text-teal-400'>Epic Grill</h1>
+      <h1 className='text-3xl font-semibold text-teal-400'>River Audio</h1>
       <p className='my-10 text-xl text-gray-300'>
         Landing page for DJ local business River Audio. (Site in Spanish)
       </p>
