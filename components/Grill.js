@@ -7,7 +7,7 @@ const Projects = () => {
     <div className='mt-16 text-center'>
       <h1 className='text-3xl font-semibold text-teal-400'>Epic Grill</h1>
       <p className='my-10 text-xl text-gray-300'>
-        Landing page for (fictitious) restaurant &quot;Epic Grill&quot;
+        Landing page for restaurant &quot;Epic Grill&quot;
       </p>
       <p className='mb-12 text-xl text-gray-300'>
         <span className='text-teal-400'>Sections:</span> Landing page
