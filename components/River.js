@@ -1,6 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import { BiExit } from "react-icons/bi"
+import Image from 'next/image'
+import Link from 'next/link'
+import { BiExit } from 'react-icons/bi'
+import { AiFillGithub } from 'react-icons/ai'
 
 const Projects = () => {
   return (
@@ -40,6 +41,19 @@ const Projects = () => {
       </div>
       <p className='my-6 text-xl text-gray-300'>
         Built with: <span className='text-teal-400'>React, Nextjs, CSS.</span>
+      </p>
+      <p className='my-8 text-xl text-gray-300'>
+        My GitHub:{' '}
+        <span className='flex items-center justify-center w-6/12 mx-auto my-4 text-4xl text-teal-400'>
+          <a
+            href='https://github.com/christophe-dev-v'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-teal-500'
+          >
+            <AiFillGithub />
+          </a>
+        </span>
       </p>
     </div>
   )

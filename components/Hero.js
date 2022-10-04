@@ -1,9 +1,9 @@
-import Image from "next/image"
-import { DiReact, DiJavascript1, DiHtml5 } from "react-icons/di"
-import { TbBrandNextjs } from "react-icons/tb"
-import { IoLogoCss3 } from "react-icons/io"
-import { SiTailwindcss } from "react-icons/si"
-import { MdScreenshot } from "react-icons/md"
+import Image from 'next/image'
+import { DiReact, DiJavascript1, DiHtml5 } from 'react-icons/di'
+import { TbBrandNextjs } from 'react-icons/tb'
+import { IoLogoCss3 } from 'react-icons/io'
+import { SiTailwindcss } from 'react-icons/si'
+import { MdScreenshot } from 'react-icons/md'
 
 const Hero = () => {
   return (
@@ -26,20 +26,20 @@ const Hero = () => {
       </div>
       <div className='mb-20 text-center'>
         <p className='text-xl text-gray-300'>Hi, I am</p>
-        <h1 className='text-4xl font-semibold text-teal-400'>Christophe</h1>
+        <h1 className='text-4xl font-semibold text-teal-400'>Rhisto</h1>
         <h2 className='text-3xl font-semibold text-gray-300'>Web Developer</h2>
       </div>
       <p className='mx-auto mb-10 text-xl text-center text-teal-400 md:w-4/6'>
         Welcome to my site.
-        <br />{" "}
+        <br />{' '}
         <span className='text-gray-200'>
-          I&apos;m Christophe, front-end developer from Mexico.
-        </span>{" "}
+          I&apos;m Rhisto, front-end developer from Mexico.
+        </span>{' '}
         <br />
       </p>
       <p className='w-5/6 mx-auto my-10 text-xl text-center text-gray-300 md:w-4/6'>
         <span className='font-semibold text-teal-400'>About me: </span>I have
-        been studying web development since 2019, I&apos;m currently enrolled in
+        been studying web development since 2020, I&apos;m currently enrolled in
         a Bachelor&apos;s Degree of Computer Science in the Guanajuato State
         University (2020 - 2024) - Mexico.
       </p>
